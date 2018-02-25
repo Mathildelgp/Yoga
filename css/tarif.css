@@ -1,0 +1,65 @@
+#bloc-1{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+#tarifforfait{
+	width: 90%;
+	background-color: #c0cfcd;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+.titretarif{
+	margin: 20px;
+	border: solid 0.6px #007151;
+	padding: 10px;
+	color: #007151 ;
+	width: 200px;
+	text-align: center;
+	font-family: 'Julius Sans One', sans-serif;
+	font-weight: bold;
+}
+p{
+	margin: 10px 30px 30px 30px; 
+}
+#fondphoto{
+	width: 90%;
+	min-height: 100vh;
+	background-image: url(../img/floor.jpg);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin: 20px;
+}
+.fondtransparent{
+	width: 90%;
+	margin: 50px;
+	margin-bottom: 50px;
+	background-color: rgba(255, 255, 255, 0.7);
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 30px;
+}
+.ensemble{
+	display: flex;
+	flex-direction: column;
+}
+.bloccat{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 10px 0 10px 0;
+}
+.point{
+	border-top: 0.5px dotted ;
+	width: 200px;
+	margin: 0 20px 0 20px;
+}
+

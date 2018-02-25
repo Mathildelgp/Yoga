@@ -1,0 +1,267 @@
+html, body{
+	margin: 0;
+	scroll-behavior: smooth;
+	font-family: 'Crimson Text', serif;
+}
+header{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+#logo img{
+	width: 200px;
+}
+
+#presentation{
+	font-size: 12px;
+	display: flex;
+	align-items: center;
+	color: #666666;
+}
+
+.trait{
+	border-top: solid 0.5px;
+	width: 200px;
+	margin:0 20px 0 20px;
+}
+
+#menu{
+	margin-top: 25px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+#blocmenu{
+	width: 80%;
+	display: flex;
+	justify-content: space-between;
+	margin: 25px;
+}
+
+.categorie{
+	padding: 10px 0 10px 0;
+	color: #666666;
+}
+
+.categorie a{
+	text-decoration: none;
+	color: #666666;
+	font-family: 'Julius Sans One', sans-serif;
+}
+
+.categorie a:hover{
+	color:#007151;
+}
+#redimbamboo{
+	width: 90%;
+	height: 500px;
+	margin: 0 auto;
+	display: block;
+	overflow: hidden;
+}
+#bamboo{
+	width: 100%;
+}
+#bamboo img{
+	width: 100%;
+	height: auto;
+}
+#bloc2{
+	display: flex;
+	justify-content: center;
+}
+#blocphotos{
+	display: flex;
+	justify-content: space-between;
+	margin-top:20px;
+	width: 90%;
+}
+
+.photoportrait{
+	width: 30%;
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	background-size: cover;
+}
+
+.lien{
+	background-color: rgba(255, 255, 255, 0.75);
+	padding:10px;
+}
+
+.photoportrait a{
+	text-decoration: none;
+	color:#007151;
+	font-size: 20px;
+}
+.photoportrait a:hover{
+	color:#666666;
+}
+
+/* -------- BLOC3 ---------*/
+#bloc3{
+	margin-top: 20px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+#bloccours{
+	display: flex;
+	justify-content: space-between;
+	width :90%;
+}
+.cours{
+	width: 65%;
+	height: 300px;
+	text-align: justify;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center; 
+}
+h2{
+	color: #007151;
+	font-family: 'Julius Sans One', sans-serif;
+}
+#photoyoga{
+	width: 30%;
+}
+#photoyoga img{
+	width: 100%;
+	min-height: 300px;
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+
+
+.bouton a{
+	text-decoration: none;
+	color: #007151;
+	border: solid #007151;
+	padding: 10px;
+	margin: 20px;
+	width: 150px;
+	display: flex;
+	justify-content: center;
+	font-family: 'Julius Sans One', sans-serif;
+	font-weight: bold;
+}
+
+.bouton a:hover{
+	color: #c0cfcd; 
+	border: solid #c0cfcd;
+	padding: 10px;
+	margin: 20px;
+	width: 100px;
+}
+
+/* -------- BLOC3 ---------*/
+#bloc4{
+	margin-top: 20px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	background-color: #c0cfcd;
+	margin:20px 0 0 0;
+	padding: 20px 0 20px 0;
+}
+#bloctarif{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width :90%;
+}
+
+.tarif h2{
+	color: #666666;
+}
+.tarif{
+	width: 30%;
+	height: 300px;
+	text-align: justify;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+#phototarif{
+	width: 65%;
+}
+#phototarif img{
+	width: 100%;
+	min-height: 300px;
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+#boutontarif a{
+	text-decoration: none;
+	color: #007151;
+	border: solid #007151;
+	padding: 10px;
+	margin: 20px;
+	width: 150px;
+	display: flex;
+	justify-content: center;
+	font-family: 'Julius Sans One', sans-serif;
+	font-weight: bold;
+}
+
+#boutontarif a:hover{
+	color: #666666; 
+	border: solid #666666;
+	padding: 10px;
+	margin: 20px;
+	width: 100px;
+}
+
+/* ----- FOOTER -------*/
+footer{
+	height: 200px;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border-top: solid 0.5px #666666;
+	margin-top: 20px;
+}
+
+footer img{
+	width: 30px;
+	height: 30px;
+	margin-left: 10px;
+}
+#contactus{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#contactus img{
+	margin-bottom: 10px;
+}
+#contactus a{
+	text-decoration: none;
+	color: #007151;
+	font-family: 'Julius Sans One', sans-serif;
+}
+#contactus a:hover{
+	text-decoration: none;
+	color: #666666;
+}
+#adresse{
+	text-align: justify;
+	width: 20%;
+	color: #666666;
+	font-size: 15px;
+}
+#adresse span{
+	font-weight: bold;
+	color: #007151;
+	font-size: 17px;
+	font-family: 'Julius Sans One', sans-serif;
+}

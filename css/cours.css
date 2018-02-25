@@ -1,0 +1,42 @@
+.bloc1{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin:20px 0 0 0;
+}
+.ensemblecours{
+	width: 90%;
+	display: flex;
+	justify-content: space-between;
+}
+.cours{
+	width: 45%;
+	margin-right: 50px;
+}
+.photoyoga{
+	width: 45%;
+}
+.photoyoga img{
+	width: 100%;
+	min-height: 300px;
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+
+.titrecours{
+	color: #007151;
+	border: solid #007151;
+	padding: 10px;
+	margin-bottom: 20px;
+	font-family: 'Julius Sans One', sans-serif;
+	font-weight: bold;
+}
+
+.ensemblecours1{
+	width: 90%;
+	display: flex;
+	justify-content: space-between; 
+	background-color: #c0cfcd;
+	margin:20px 0 0 0;
+	padding: 20px 0 20px 0;
+}

@@ -1,0 +1,18 @@
+#bloc1{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+#conteneur{
+	width: 90%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.blocimg{
+	background-size: cover;
+	background-position: center;
+	width: 45%;
+	height: 300px;
+	margin: 5px 5px 5px 5px;
+}
